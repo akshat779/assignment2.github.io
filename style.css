@@ -1,0 +1,153 @@
+body{
+    background: linear-gradient(#eecda3,#ef629f);
+    background-repeat: no-repeat;
+    /* background-size:cover; */
+    min-height: 100vh;
+    width: 100%;
+    align-content: center;
+    margin: auto;
+    /* height: auto; */
+    background-position:  right top;
+    background-size:cover;
+    position: relative;
+    /* left: 0px; */
+}
+
+#logo img{
+    width: 50px;
+    padding-top: 0px;
+    margin: 0px;
+    /* border: 1px green solid; */
+    /* padding: 5px; */
+}
+.navigation{
+    padding-top: 0px;
+    /* border:1px solid black; */
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navigation li {
+    text-decoration : none; 
+    list-style: none;
+    /* margin: 2%; */
+    display: inline-block;
+    font-weight: 500;
+    /* padding:10px; */
+    padding: 0px 5px;
+    font-family: 'Radio Canada', sans-serif;
+
+    /* position: ; */
+    color:rgb(0, 0, 0);
+    /* margin: 4px; */
+    margin-right: 20px;
+    text-decoration : none;
+    list-style: none;
+    font-size: 1.15em;
+    /* border: 1px solid black; */
+}
+ul li a{
+    text-decoration: none;
+    /* color: rgb(163, 22, 22); */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    background-image: linear-gradient(45deg, #000000 , #000000);
+    background-clip: text;
+    /* background-color: green; */
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.nav-link {
+    flex:1;
+    text-align: right;
+    /* border: 1px solid black; */
+    /* padding: ; */
+
+}
+
+.nav-link li:hover{
+    animation-name: box;
+    animation-duration: 1s;
+}
+h1{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4.5em;
+    background-image: linear-gradient(20deg, #9600ff , #aebaf8);
+    background-clip: text;
+    /* background-color: green; */
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+p{
+    text-align:center;
+    /* padding-left: 50px; */
+    font-size:1.7em;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    color:#000000;
+    font-weight: 900;
+    /* word-spacing: 1.15em; */
+}
+p span{
+    font-size: 1.6em;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    padding-right: 10px;
+}
+.common img{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 15px;
+
+    /* border: 1px solid black; */
+
+}
+
+.mainne{
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: left; */
+    margin: 20px;
+    align-items: stretch;
+    /* border: 1px solid red; */
+}
+.common{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    background: linear-gradient(45deg, #8170edda , #ffffff6a);
+    margin: 10px;
+    border-radius: 20px;
+
+
+}
+
+.common span{
+    font-size:2em;
+    margin: 20px;
+    padding-left: 20px;
+    /* font-family: */
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color:rgb(62, 28, 255);
+}
+
+.common p{
+    /* font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    color:azure;
+    font-family: 'Koulen', cursive;
+    
+}
